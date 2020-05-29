@@ -1,0 +1,68 @@
+
+@font-face {
+  font-family: myFont;
+  src: url(NeueMachinaRegular400.otf);
+}
+
+*{
+cursor: url(largest.cur), progress !important;
+}
+
+body{
+	background-color: #000;
+	margin: 1%;
+}
+
+#title{
+	width: 190px;
+	color: #fff;
+	font:56px myFont;
+	margin-top: 20px;
+	margin-left: 20px;
+
+	filter: blur(10px);
+}
+#title:hover{
+	filter: blur(0px);
+}
+
+#about{
+	margin-top: 30px;
+	margin-left: 20px;
+	font:26px myFont;
+	color: #fff;
+	width: 45%;
+	line-height: 1.20;
+    letter-spacing: 0.01em;
+    filter: blur(10px);
+}
+
+#about:hover{
+    filter: blur(0px);
+}
+
+
+.char { transition: color .0s; transition-delay: 5s}
+
+.char:hover { transition-delay: .0s}
+
+
+.images{
+	position: fixed;
+	display: inline-block;
+	width: 1221px;
+	height:1700px;
+	background: transparent url(BEZ.jpg) no-repeat 0 0;
+	transform: scale(0.45);
+	margin-top: -37%;
+	margin-left: 35%;
+	/*filter: blur(10px);*/
+
+}
+
+
+
+.images:hover{
+	background-position: 0 -1710px; 
+	/*filter: blur(0px);*/
+}

@@ -1,0 +1,72 @@
+
+@font-face {
+  font-family: myFont;
+  src: url(NeueMachinaRegular400.otf);
+}
+
+@font-face {
+  font-family: FontTitle;
+  src: url(36Days-Regular.woff);
+}
+
+*{cursor: url(largest.cur), progress !important;}
+html, body {background-color: #000; margin: 1%;}
+
+.div{
+	width: 100%;
+  	color: #000;
+  	letter-spacing: 0.01em;
+	line-height:0.8;
+	pointer-events: none;
+	z-index: 12;
+}
+
+
+#hello-world{
+	margin:0;
+	width: 10%;
+	color: #fff;
+	font:126px FontTitle;
+	letter-spacing: 0.01em;
+	line-height:0.8;
+	pointer-events: visible;
+	filter: blur(10px);
+}
+#hello-world:hover{
+	filter: blur(0px);
+}
+
+#about{ 
+	width: 100%;
+	font: 26px myFont;
+	color: #fff;
+	line-height: 1.35;
+    letter-spacing: 0.02em;
+    pointer-events: visible;
+    filter: blur(10px);
+}
+
+#about:hover{
+	filter: blur(0px);
+}
+
+a{
+	padding: 5px;
+}
+.projects{
+	width: 70%;
+	font:46px myFont;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	pointer-events: auto;
+	filter: blur(10px);
+}
+
+.projects:hover{
+	filter: blur(0px);
+}
+
+.char { transition: color .0s; transition-delay: 5s}
+
+.char:hover { transition-delay: .0s}
