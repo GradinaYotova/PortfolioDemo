@@ -26,7 +26,7 @@ html, body {background-color: #000; margin: 1%;}
 	margin:0;
 	width: 10%;
 	color: #fff;
-	font:126px FontTitle;
+	font:126px myFont;
 	letter-spacing: 0.01em;
 	line-height:0.8;
 	pointer-events: visible;
